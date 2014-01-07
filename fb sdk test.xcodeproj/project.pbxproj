@@ -19,6 +19,7 @@
 		040F20A71868979900D8FFFE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 040F208F1868979800D8FFFE /* UIKit.framework */; };
 		040F20AF1868979900D8FFFE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 040F20AD1868979900D8FFFE /* InfoPlist.strings */; };
 		040F20B11868979900D8FFFE /* fb_sdk_testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 040F20B01868979900D8FFFE /* fb_sdk_testTests.m */; };
+		040F20BB18689F5C00D8FFFE /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 040F20BA18689F5C00D8FFFE /* FacebookSDK.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		040F20AC1868979900D8FFFE /* fb sdk testTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "fb sdk testTests-Info.plist"; sourceTree = "<group>"; };
 		040F20AE1868979900D8FFFE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		040F20B01868979900D8FFFE /* fb_sdk_testTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = fb_sdk_testTests.m; sourceTree = "<group>"; };
+		040F20BA18689F5C00D8FFFE /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				040F208E1868979800D8FFFE /* CoreGraphics.framework in Frameworks */,
+				040F20BB18689F5C00D8FFFE /* FacebookSDK.framework in Frameworks */,
 				040F20901868979800D8FFFE /* UIKit.framework in Frameworks */,
 				040F208C1868979800D8FFFE /* Foundation.framework in Frameworks */,
 			);
@@ -96,6 +99,7 @@
 		040F208A1868979800D8FFFE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				040F20BA18689F5C00D8FFFE /* FacebookSDK.framework */,
 				040F208B1868979800D8FFFE /* Foundation.framework */,
 				040F208D1868979800D8FFFE /* CoreGraphics.framework */,
 				040F208F1868979800D8FFFE /* UIKit.framework */,
@@ -359,6 +363,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/mac/Desktop/fb\\ sdk\\ test",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "fb sdk test/fb sdk test-Prefix.pch";
 				INFOPLIST_FILE = "fb sdk test/fb sdk test-Info.plist";
@@ -372,6 +380,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/mac/Desktop/fb\\ sdk\\ test",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "fb sdk test/fb sdk test-Prefix.pch";
 				INFOPLIST_FILE = "fb sdk test/fb sdk test-Info.plist";
@@ -441,6 +453,7 @@
 				040F20B61868979900D8FFFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		040F20B71868979900D8FFFE /* Build configuration list for PBXNativeTarget "fb sdk testTests" */ = {
 			isa = XCConfigurationList;
@@ -449,6 +462,7 @@
 				040F20B91868979900D8FFFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
